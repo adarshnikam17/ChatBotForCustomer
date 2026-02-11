@@ -1,0 +1,66 @@
+backend/faqs.db
+frontend/.env
+# Ignore environment variable files
+*.env
+# Ignore Python cache files
+__pycache__/
+*.pyc
+# Ignore SQLite database files
+*.db
+# Ignore IDE specific files
+.vscode/
+.idea/
+# Ignore log files
+
+*.log
+logs/
+# Ignore virtual environment directories
+venv/
+env/
+.virtualenv/
+# Ignore node modules
+node_modules/
+dist/
+build/
+
+
+# Ignore frontend build files
+frontend/build/
+frontend/dist/
+# Ignore backend build files
+backend/build/
+backend/dist/
+# Ignore coverage reports
+htmlcov/
+.coverage
+# Ignore test result files
+test_results/
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore Docker files
+docker-compose.override.yml
+docker-compose.prod.yml
+# Ignore secret keys and credentials
+secrets.json
+credentials.json
+# Ignore other sensitive files
+*.key
+*.pem
+# Ignore compiled C extensions
+*.so
+# Ignore temporary files
+*.tmp
+*.temp
+# Ignore frontend app environment file
+frontend/.env
+# Ignore backend app environment file
+backend/.env
+# Ignore IDE workspace settings
+*.code-workspace
+# Ignore local configuration files
+.local/config/
+# Ignore frontend app environment file
+frontend/.env
